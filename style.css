@@ -31,7 +31,7 @@ main .jumbotron, main .jumbotron div h1{
     .display-5 {
         font-size: 4.5rem;
     }
-    #face i:hover, #inst i:hover{
+    #face i:hover, #inst i:hover, #linke i:hover{
         color: rgb(255, 102, 0);
     }
     
