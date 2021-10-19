@@ -314,5 +314,9 @@ a {
     width: 100%;
     min-width: auto;
   }
+
+  .contenidos {
+    flex-wrap: wrap;
+  }
 }
 
