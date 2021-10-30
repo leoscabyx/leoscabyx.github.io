@@ -157,6 +157,8 @@ a {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .proyectos {
@@ -204,6 +206,11 @@ a {
   padding: 64px 32px;
 }
 
+.seccion3__contenido {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .seccion3 .seccion3__titulo {
   font-size: 32px;
   margin-bottom: 20px;
@@ -237,6 +244,11 @@ a {
 
 .footer {
   padding: 64px 32px;
+}
+
+.footer__contenido {
+  max-width: 1024px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 20px;
