@@ -27,160 +27,352 @@
     <meta name="keywords" content="Desarrollador, Web, Programacion, JavaScript, React, Portafolio, Venezuela">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Sniglet&display=swap" rel="stylesheet">
 
     <!-- Estilos Propios -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- FontAwesome -->
+    <!-- FontAwesome Icons -->
     <script src="https://kit.fontawesome.com/e0d0b4a478.js" crossorigin="anonymous"></script>
     
-    
+    <!-- Bootstrap Icons -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
 </head>
 <body>
     
     <header class="header">
-        <div class="header__hacker">
-            <img class="header__img-hacker" src="img/img-hacker.svg" alt="Imagen Hacker">
-        </div>
-        <div class="header__info">
-            <p>Bienvenido,<br> Me presento soy Leonardo Lovera con ganas de seguir sumando 🚀</p>
-            <h1 class="titulo-principal">Developer Web</h1>
-            <ul class="header__lista">
-                <li class="header__item">Venezolano (🇻🇪)</li>
-                <li class="header__item">Futbol ⚽</li>
-                <li class="header__item">Escuchar Musica 🎶</li>
-                <li class="header__item">Me Encanta el mundo de JavaScript 🌎</li>
-            </ul>
+        <div class="contenedor">
+            <div class="header__row">
+                <div class="header__figure">
+                    <img class="header__img" src="img/img-hacker-removebg.png" alt="Imagen Hacker" width="100">
+                    <span class="header__icon header__icon--1">
+                        ⚽
+                    </span>
+                    <span class="header__icon header__icon--2" style="--scale: 0.5;--left: 20rem; --top: 2rem;">
+                        🎶
+                    </span>
+                    <span class="header__icon header__icon--3" style="--scale: 0.75;--left: 15rem; --top: 7rem;">
+                        🧡
+                    </span>
+                </div>
+                <div class="header__info">
+                    <h1 class="header__title"><span>Developer</span> Web</h1>
+                    <p>Interesado un 💯 en JavaScript un 🌎 por explorar <br /> Me apasiona compartir conocimientos y crear comunidad 🚀</p>
+                    <p>Me encuentras como @leoscabyx</p>
+                </div>
+            </div>
         </div>
     </header>
-    
+
     <main>
-        <section class="seccion1">
-            <div class="seccion1__contenedor">
-                <h2 class="seccion1__titulo">Conocimientos</h2>
-                <div class="card">
-                    <i class="fab fa-html5 card__icon"></i>
-                    <span class="card__name">Estructura</span>
-                </div>
-                <div class="card">
-                    <i class="fab fa-css3-alt card__icon"></i>
-                    <span class="card__name">Estilos</span>
-                </div>
-                <div class="card">
-                    <i class="fab fa-js card__icon"></i>
-                    <span class="card__name">Isoformico</span>
-                </div>
-                <div class="card">
-                    <i class="fab fa-react card__icon"></i>
-                    <span class="card__name">Interfaces</span>
-                </div>
-                <div class="card">
-                    <i class="fab fa-git-alt card__icon"></i>
-                    <span class="card__name">Versiones</span>
-                </div>
-                <div class="card">
-                    <i class="fab fa-github card__icon"></i>
-                    <span class="card__name">Red Social</span>
+        <section class="skills">
+            <div class="contenedor">
+                <div class="skills__info">
+                    <h2 class="skills__title">Skills</h2>
+                    <ul class="skills__list">
+                        <li>
+                            <i class="fab fa-html5"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-css3-alt"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-js"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-git-alt"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-react"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-node"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-database"></i>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <section class="seccion2">
-            <div class="seccion2__contenido">
-                <h2 class="seccion2__titulo--sm">Proyectos & Practicas</h2>
-                <div class="proyectos">
-                    <article class="proyecto">
-                        <div class="proyecto__enlances">
-                            <a class="proyecto__enlace" href="https://github.com/leoscabyx/tienda-coder" target="_blank"><i class="fas fa-code"></i></a>
-                            <a class="proyecto__enlace jam jam-github-circle" href="https://milobakery-ch.vercel.app/" target="_blank"><i class="fas fa-globe"></i></a>
+        <section class="projects">
+            <div class="contenedor">
+                <div class="projects__info">
+                    <h2 class="projects__title">Projects</h2>
+                    <h3>Maquetacion Web</h3>
+                    <div class="projects__items">
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Typer D</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/typerd-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/typerd-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
                         </div>
-                        <img class="proyecto__img" src="img/img-proyecto-1.png" alt="">
-                    </article>
-                    <article class="proyecto">
-                        <div class="proyecto__enlances">
-                            <a class="proyecto__enlace" href="https://github.com/leoscabyx/react-course" target="_blank"><i class="fas fa-code"></i></a>
-                            <a class="proyecto__enlace" href="https://react-course-leoscabyx.vercel.app/" target="_blank"><i class="fas fa-globe"></i></a>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Weater Channel</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/weaterchannel-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/weaterchannel-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
                         </div>
-                        <img class="proyecto__img" src="img/img-proyecto-3.png" alt="">
-                    </article>
-                    <article class="proyecto">
-                        <div class="proyecto__enlances">
-                            <a class="proyecto__enlace" href="https://github.com/leoscabyx/proyecto-final-22900" target="_blank"><i class="fas fa-code"></i></a>
-                            <a class="proyecto__enlace" href="https://leoscabyx.github.io/proyecto-final-22900/" target="_blank"><i class="fas fa-globe"></i></a>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Todo List</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/todolist-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/todolist-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
                         </div>
-                        <img class="proyecto__img" src="img/img-proyecto-4.png" alt="">
-                    </article>
-                    <article class="proyecto">
-                        <div class="proyecto__enlances">
-                            <a class="proyecto__enlace" href="https://github.com/leoscabyx/clone-instagram"  target="_blank"><i class="fas fa-code"></i></a>
-                            <a class="proyecto__enlace" href="https://leoscabyx.github.io/clone-instagram/"  target="_blank"><i class="fas fa-globe"></i></a>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Color Game (RGB)</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/colorgame-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/colorgame-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
                         </div>
-                        <img class="proyecto__img" src="img/img-proyecto-2.png" alt="">
-                    </article>
-                    <article class="proyecto">
-                        <div class="proyecto__enlances">
-                            <a class="proyecto__enlace" href="https://github.com/leoscabyx/fourCard" target="_blank"><i class="fas fa-code"></i></a>
-                            <a class="proyecto__enlace" href="https://leoscabyx.github.io/fourCard/" target="_blank"><i class="fas fa-globe"></i></a>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Seccion Home Pepsi</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/pepsi-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/pepsi-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
                         </div>
-                        <img class="proyecto__img" src="img/img-proyecto-5.png" alt="">
-                    </article>
-                </div>
-                <div class="seccion2__banner">
-                    <img class="seccion2__img" src="img/pc.svg" alt="">
-                    <h2 class="seccion2__titulo--lg">Proyectos & Practicas</h2>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Clon Starbucks</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/clon-starbucks-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/clon-starbucks-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Clon Coderhouse</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/clon-coderhouse-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/clon-coderhouse-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Clon Spotify</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/clon-spotify-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/clon-spotify-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Clon Dashboard Instagram</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/clon-instagram-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/clon-instagram-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Halloween-dw</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/halloween-dw" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/halloween-dw/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>React</h3>
+                    <div class="projects__items">
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Milobakery Tienda</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-react"></i>
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/app-tienda-milobakery-react" target="_blank">Code</a>
+                                    <a href="https://milobakery-ch.vercel.app/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Catbot Intro</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/app-catbot-react" target="_blank">Code</a>
+                                    <a href="https://react-course.leoscabyx.vercel.app/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Clima</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/app-clima-react" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/app-clima-react/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>Todo App</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/app-todo-app-react" target="_blank">Code</a>
+                                    <a href="https://leoscabyx.github.io/app-todo-app-react/" target="_blank">Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BackEnd</h3>
+                    <div class="projects__items">
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>API Productos-Carrito</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-node"></i>
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/api-coderhouse-nodejs-mongodb-backend" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__item">
+                            <div class="projects__content">
+                                <span>API Peliculas-Personajes</span>
+                                <div class="projects__icons">
+                                    <i class="fab fa-js"></i>
+                                    <i class="fab fa-node"></i>
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="projects__links">
+                                    <a href="https://github.com/leoscabyx/api-alkemy-nodejs-postgres-backend" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="seccion3">
-            <div class="seccion3__contenido">
-                <h2 class="seccion3__titulo">Cursos</h2>
-                <div class="cursos">
-                    <article class="curso">
-                        <h3 class="curso__titulo">BackEnd NodeJS</h3>
-                        <p class="curso__parrafo">CoderHouse</p>
-                        <p class="curso__parrafo">6 Meses</p>
-                        <p class="curso__estado">En Progreso</p>
-                    </article>
-                    <article class="curso">
-                        <h3 class="curso__titulo">React JS</h3>
-                        <p class="curso__parrafo">CoderHouse</p>
-                        <p class="curso__parrafo">2.5 Meses</p>
-                        <p class="curso__estado">Terminado</p>
-                    </article>
-                    <article class="curso">
-                        <h3 class="curso__titulo">Desarrollo Web FullStack</h3>
-                        <p class="curso__parrafo">Digital House</p>
-                        <p class="curso__parrafo">5 Meses</p>
-                        <p class="curso__estado">Terminado</p>
-                    </article>
+        <section class="content">
+            <div class="contenedor">
+                <div class="content__row">
+                    <div class="content__info">
+                        <h2 class="content__title">Contenido para ti</h2>
+                        <ul class="content__lista">
+                            <li><a href="https://bit.ly/2QWHCcm" target="_blank">HTML</a></li>
+                            <li><a href="https://bit.ly/3226jdK" target="_blank">CSS</a></li>
+                            <li><a href="https://bit.ly/2VLnTSx" target="_blank">GIT</a></li>
+                            <li><a href="https://bit.ly/2UUwEK3" target="_blank">GITHUB</a></li>
+                            <li><a href="https://bit.ly/33d16in" target="_blank">BOOTSTRAP</a></li>  
+                        </ul>
+                    </div>
+                    <div class="content__cafecito">
+                        <span class="content__emoji">🙋‍♂️</span>
+                        <a class="content__link" href="https://cafecito.app/leodev" target="_blank">Me invitas un Cafecito ☕</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__contenido">
-            <hr>
-            <div>
-                <p>Interesado un 💯 en JavaScript un 🌎 por explorar, en especial React 👀</p>
-                <p>Me apasiona compartir conocimientos y crear contenido</p>
-                <p>Me encuentras como <a href="https://www.instagram.com/leoscabyx/" target="_blank">@leoscabyx</a></p>
-            </div>
-            <ul class="contenidos">
-                <li><a href="https://bit.ly/2QWHCcm" target="_blank">HTML</a></li>
-                <li><a href="https://bit.ly/3226jdK" target="_blank">CSS</a></li>
-                <li><a href="https://bit.ly/2VLnTSx" target="_blank">GIT</a></li>
-                <li><a href="https://bit.ly/2UUwEK3" target="_blank">GITHUB</a></li>
-                <li><a href="https://bit.ly/33d16in" target="_blank">BOOTSTRAP</a></li>
-            </ul>
-            <div>
-                <a href="https://cafecito.app/leodev" target="_blank">Me invitas un Cafecito ☕</a>
-                <a href="https://www.linkedin.com/in/leonardolovera/" target="_blank">LinkedIn 🙋‍♂️</a>
+        <div class="contenedor">
+            <div class="footer__info">
+                <h3 class="footer__title">¡Gracias por venir!</h3>
+                <a class="footer__link" href="https://www.linkedin.com/in/leonardolovera/" target="_blank">LinkedIn</a>
             </div>
         </div>
     </footer>
-
+    
 </body>
 </html>
